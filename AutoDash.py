@@ -1,3 +1,5 @@
+# Current design for 2560 x 1440 resolution
+
 import pyautogui as pag
 import webbrowser as web
 import time
@@ -14,9 +16,9 @@ pag.typewrite(["enter"])
 time.sleep(10)
 
 # print login info
-pag.typewrite("austin.j.gain@gmail.com")  
+pag.typewrite("username") # username entered here  
 pag.typewrite(["tab"])
-pag.typewrite("Applejuice33!")
+pag.typewrite("password") # password entered here
 for x in range(2):
     pag.typewrite(["tab"])
 pag.typewrite(["enter"])
